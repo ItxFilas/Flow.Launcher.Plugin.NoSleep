@@ -1,0 +1,1 @@
+dotnet publish 'Flow.Launcher.Plugin.NoSleep.csproj' -r win-x64  -c Release

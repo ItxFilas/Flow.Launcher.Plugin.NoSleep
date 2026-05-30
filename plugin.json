@@ -1,0 +1,12 @@
+{
+    "ID": "9EE99C394F05429991E286E4731BAB81",
+    "ActionKeyword": "ns",
+    "Name": "NoSleep",
+    "Description": "Keep your computer awake with optional timer, display, and battery safeguards.",
+    "Author": "ItxFilas",
+    "Version": "1.4.0",
+    "Language": "csharp",
+    "Website": "https://github.com/ItxFilas/Flow.Launcher.Plugin.NoSleep",
+    "IcoPath": "Images\\icon.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.NoSleep.dll"
+}
