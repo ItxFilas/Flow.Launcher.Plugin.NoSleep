@@ -55,7 +55,11 @@ pm install NoSleep by ItxFilas
 or
 
 Search for `NoSleep` within [flow launchers](https://github.com/Flow-Launcher/Flow.Launcher) plugin store
+## How it Works
 
+    Unlike utilities that spawn a separate background process, NoSleep runs entirely within the Flow Launcher process. It calls the native Windows API function `SetThreadExecutionState` from `kernel32.dll`
+  on a lightweight background thread (`NoSleepPowerRequestThread`) to keep the system (and optionally the display) awake. Once the timer expires or NoSleep is turned off, the state is cleanly released and
+  the thread terminates.
 ## Notices
 
-NoSleep is maintained by [ItxFilas](https://github.com/ItxFilas). Icons are from [Icons8](https://icons8.com/). License notices are preserved in [LICENSE](LICENSE).
+NoSleep is maintained by [ItxFilas](https://github.com/ItxFilas). License notices are preserved in [LICENSE](LICENSE).
